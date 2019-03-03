@@ -17,7 +17,7 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <ListBox ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ListBox ScrollViewer.HorizontalScrollBarVisibility="Disabled" Name="lis">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Border>
