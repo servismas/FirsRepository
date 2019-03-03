@@ -22,14 +22,14 @@
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Border>
-                        <WrapPanel>
+                        <StackPanel>
                             <TextBlock HorizontalAlignment="Left" >Name:</TextBlock>
                             <TextBlock Text="{Binding Name}"></TextBlock>
                             <TextBlock HorizontalAlignment="Left">Login:</TextBlock>
                             <TextBlock Text="{Binding Login}"></TextBlock>
                             <TextBlock HorizontalAlignment="Left">Password:</TextBlock>
                             <TextBlock Text="{Binding Password}"></TextBlock>
-                        </WrapPanel>
+                        </StackPanel>
                     </Border>
                 </DataTemplate>
             </ListBox.ItemTemplate>
