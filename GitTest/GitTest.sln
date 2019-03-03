@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfGitTastApp", "WpfGitTastApp\WpfGitTastApp.csproj", "{C50C8D91-4FC2-4A5C-B5BF-64F3926D42A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfGitTestApp", "WpfGitTastApp\WpfGitTestApp.csproj", "{C50C8D91-4FC2-4A5C-B5BF-64F3926D42A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
