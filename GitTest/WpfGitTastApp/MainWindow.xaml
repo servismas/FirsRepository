@@ -10,6 +10,7 @@
         <Style TargetType="Border">
             <Setter Property="CornerRadius" Value="5" />
             <Setter Property="Background" Value="Cyan"/>
+            <Setter Property="BorderThickness" Value="3"/>
         </Style>
         <Style TargetType="TextBlock">
             <Setter Property="FontSize" Value="20"/>
