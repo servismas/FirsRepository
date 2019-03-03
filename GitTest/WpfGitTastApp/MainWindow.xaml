@@ -6,7 +6,32 @@
         xmlns:local="clr-namespace:WpfGitTastApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Border">
+            <Setter Property="CornerRadius" Value="5" />
+            <Setter Property="Background" Value="Cyan"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
     <Grid>
-        
+        <ListBox ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border>
+                        <WrapPanel>
+                            <TextBlock HorizontalAlignment="Left" >Name:</TextBlock>
+                            <TextBlock Text="{Binding Name}"></TextBlock>
+                            <TextBlock HorizontalAlignment="Left">Login:</TextBlock>
+                            <TextBlock Text="{Binding Login}"></TextBlock>
+                            <TextBlock HorizontalAlignment="Left">Password:</TextBlock>
+                            <TextBlock Text="{Binding Password}"></TextBlock>
+                        </WrapPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
     </Grid>
 </Window>
